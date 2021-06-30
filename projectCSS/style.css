@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 1000px;
+}
+.header{
+    width: 1500px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-item: center;
+}
+.fb{
+  color: blue;
+  font-weight: bold;
+}
+.twitter{
+  color: blue;
+  font-weight: bold;
+}
+.preheader{
+  background: lightgray;
+  display:flex;
+  justify-content: flex-end;
+}
+.button{
+   margin: 0 auto;
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.button li{
+    width: 100px;
+    text-align: center;
+}
+.button li a{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: #00ffa2;
+}
+.button li a:hover{
+  color: #858585;
+  border-bottom:3px solid #00cc99;
+}
+.banner{
+  margin-left: 20px;
+}
+.banner h1{
+  font-weight: 590;
+  color: #fff;
+  font-size: 36px;
+  display: block;
+  padding: 50px 30px;
+  background:rgba(0%,0%,0%,0.3)  ;
+  position:relative;
+  bottom:260px;
+}
+.content{
+    margin-bottom: 20px;
+}
+.course{
+    display: flex;
+    justify-content: space-around;
+}
+.course-item{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+.course p{
+  display: flex;
+  justify-content: flex-start;
+}
+.it3{
+    padding-top: 70px;
+  
+}
+.it2{
+    padding-top: 60px;
+  padding-bottom: 30px;
+}
+.it3 img{
+  padding-bottom: 40px;
+}
+.it2 img{
+  padding-bottom: 20px;
+}
+.it1 img{
+  padding-bottom: 10px;
+}
+.it1{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.course-item h2{
+    text-align: center;
+    font-size: 20px;
+}
+.course-item p{
+    padding-left: 10px;
+}
+.tab{
+  display: flex;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+}
+table{
+  display: flex;
+  justify-content: space-around;
+}
+th{
+  font-weight: bold;
+  background: #D0D0D0;
+  text-align: left;
+}
+table th, table td{
+  border-top: 1px solid #ADADAD;
+  border-bottom: 1px solid #ADADAD;
+  font-size:15px;
+  padding:10px 50px;
+}
+.highlight{
+  color: 	#02C874;
+}
+.form{
+  width: 1000px;
+  height: 500px;
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  padding: 10px;
+}
+.form h4{
+  padding-top: 40px;
+  padding-bottom: 24px;
+  font-size: 32px;
+  font-weight: 350px;
+  text-align: center;
+  line-height: 1.8;
+}
+.list{
+  display: inline;
+  align-items: center;
+  color: white;
+  
+  width: 976px;
+  position:relative;
+}
+.n{
+  width: 473px;
+  height: 30px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius : 5px;
+}
+.information{
+  width: 250px;
+  margin-bottom: 90px;
+}
+.ntm{
+  display: block;
+  position:absolute;
+  width: 480px; 
+  font-size: 20px;
+  right:0;
+  top:10px;
+}
+.btm{
+  display: flex;
+  justify-content: flex-end;
+}
+.btmStyle{
+  width: 80px;
+  height:30px;
+  background: #00cc99;
+  color: white;
+  text-align: center;
+  border-radius : 5px;
+}
+.footer{
+    display:flex;
+    background: white;
+    color: white;
+    justify-content: space-around;
+  align-items: center;
+    padding-top: 40px;
+  padding-bottom: 72px;
+  padding-right: 36px;
+  padding-left: 36px;
+}
+.text-footer{
+ display:flex;
+ flex-direction: column;
+}
+.footer li{
+ display: block;
+ font-weight: 900;
+ font-size: 16px;
+ line-height:2;
+ color: #000;
+}
+.text-footer a{
+ text-decoration:none;
+ color: #00cc99;
+}
+.text-footer a:hover{
+  color: #858585;
+}
