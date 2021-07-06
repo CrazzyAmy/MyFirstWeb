@@ -60,11 +60,11 @@ table {
     align-item: center;
 }
 .fb{
-  color: blue;
+  color: #4460a0;
   font-weight: bold;
 }
 .twitter{
-  color: blue;
+  color: #3fb5ed;
   font-weight: bold;
 }
 .preheader{
@@ -72,8 +72,12 @@ table {
   display:flex;
   justify-content: flex-end;
 }
+.preheader a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
 .button{
-   margin: 0 auto;
    display:flex;
    justify-content: flex-start;
    align-items: center;
@@ -96,7 +100,7 @@ table {
 .banner{
   margin-left: 20px;
 }
-.banner h1{
+.banner h2{
   font-weight: 590;
   color: #fff;
   font-size: 36px;
@@ -107,16 +111,20 @@ table {
   bottom:260px;
 }
 .content{
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+.wr{
+  margin-bottom: 60px;
 }
 .course{
     display: flex;
     justify-content: space-around;
 }
 .course-item{
-    border: 1px solid black;
+    border: 1px solid #D0D0D0;
     width: 300px;
     text-align: center;
+    box-shadow: 3px 3px 5px gray;
 }
 .course p{
   display: flex;
@@ -143,7 +151,7 @@ table {
   padding-top: 50px;
   padding-bottom: 30px;
 }
-.course-item h2{
+.course-item h3{
     text-align: center;
     font-size: 20px;
 }
@@ -177,13 +185,13 @@ table th, table td{
 }
 .form{
   width: 1000px;
-  height: 500px;
-  background: green;
+/*  height: 500px; */
+  background: linear-gradient(#00644b, #009771);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content:space-around;
-  padding: 10px;
+  padding: 30px;
 }
 .form h4{
   padding-top: 40px;
@@ -194,12 +202,15 @@ table th, table td{
   line-height: 1.8;
 }
 .list{
-  display: inline;
-  align-items: center;
+  width: 976px;
+  display: flex;
+/*  align-items: center;*/
+  flex-direction: row;
+  justify-content: space-between;
   color: white;
   
-  width: 976px;
-  position:relative;
+/*  
+  position:relative;*/
 }
 .n{
   width: 473px;
@@ -213,8 +224,11 @@ table th, table td{
   margin-bottom: 90px;
 }
 .ntm{
-  display: block;
-  position:absolute;
+/*  display: block;
+  position:absolute;*/
+  
+  display: flex;
+  flex-direction: column;
   width: 480px; 
   font-size: 20px;
   right:0;
@@ -224,29 +238,35 @@ table th, table td{
   display: flex;
   justify-content: flex-end;
 }
+.btmStyle:hover{
+  color: red;
+  
+}
 .btmStyle{
   width: 80px;
-  height:30px;
+/*  height:30px;*/
+  padding: 10px;
   background: #00cc99;
   color: white;
   text-align: center;
   border-radius : 5px;
+  cursor:pointer;
 }
 .footer{
     display:flex;
     background: white;
     color: white;
-    justify-content: space-around;
-  align-items: center;
+    justify-content: space-between;
+  align-items: flex-start;
     padding-top: 40px;
-  padding-bottom: 72px;
+  padding-bottom: 40px;
   padding-right: 36px;
   padding-left: 36px;
 }
-.text-footer{
+/*.text-footer{
  display:flex;
  flex-direction: column;
-}
+}*/
 .footer li{
  display: block;
  font-weight: 900;
@@ -254,9 +274,9 @@ table th, table td{
  line-height:2;
  color: #000;
 }
-.text-footer a{
+.text-footer span{
  text-decoration:none;
- color: #00cc99;
+ color: red;
 }
 .text-footer a:hover{
   color: #858585;
