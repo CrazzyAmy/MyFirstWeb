@@ -55,7 +55,7 @@ table {
     width: 1000px;
 }
 .header{
-    width: 1000px;
+ /*   width: 900px;*/
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ table {
   border: 1px solid #fff;
    display:flex;
    justify-content: flex-start;
-   align-items: center;
+/*   align-items: center;*/
 }
 .button li{
     width: 100px;
@@ -134,24 +134,24 @@ table {
   display: flex;
   justify-content: flex-start;
 }
-.it3{
+.item3{
     padding-top: 70px;
   
 }
-.it2{
+.item2{
     padding-top: 60px;
   padding-bottom: 30px;
 }
-.it3 img{
+.item3 img{
   padding-bottom: 40px;
 }
-.it2 img{
+.item2 img{
   padding-bottom: 20px;
 }
-.it1 img{
+.item1 img{
   padding-bottom: 10px;
 }
-.it1{
+.item1{
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -169,16 +169,16 @@ table {
   font-weight: bold;
   justify-content: center;
 }
-table{
+.tb{
   display: flex;
   justify-content: space-around;
 }
-th{
+.r0{
   font-weight: bold;
   background: #D0D0D0;
   text-align: left;
 }
-table th, table td{
+.t{
   border-top: 1px solid #ADADAD;
   border-bottom: 1px solid #ADADAD;
   font-size:15px;
@@ -188,7 +188,7 @@ table th, table td{
   color: 	#02C874;
 }
 .form{
-  width: 1000px;
+/*  width: 1000px; */
 /*  height: 500px; */
   background: linear-gradient(#00644b, #009771);
   display: flex;
@@ -205,14 +205,16 @@ table th, table td{
   text-align: center;
   line-height: 1.8;
 }
+.TextArea{
+  width: 400px;
+  height: 250px;
+}
 .list{
   width: 976px;
   display: flex;
-/*  align-items: center;*/
   flex-direction: row;
   justify-content: space-between;
   color: white;
-  
 /*  
   position:relative;*/
 }
